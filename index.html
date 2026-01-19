@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GYM NAME</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#0b1220;
+      color:#ffffff;
+    }
+    .wrap{
+      width:min(900px, 92%);
+      margin:auto;
+      padding:20px 0 90px;
+    }
+    .box{
+      background:#121a2b;
+      border-radius:16px;
+      padding:18px;
+      margin-bottom:14px;
+    }
+    h1{margin:0; font-size:22px}
+    p{margin:8px 0; color:#cbd5ff; font-size:14px}
+    .btns{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:10px;
+    }
+    a.btn{
+      display:inline-block;
+      padding:12px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:bold;
+      background:#2d6cdf;
+      color:white;
+    }
+    a.btn2{
+      background:#20c997;
+      color:#06101f;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(2, 1fr);
+      gap:10px;
+      margin-top:10px;
+    }
+    .item{
+      background:#0f1627;
+      border-radius:14px;
+      padding:14px;
+    }
+    .item strong{
+      display:block;
+      margin-bottom:6px;
+    }
+    .footer{
+      text-align:center;
+      color:#aab7e6;
+      font-size:12px;
+      margin-top:12px;
+    }
+    .sticky{
+      position:fixed;
+      left:0; right:0; bottom:0;
+      padding:12px;
+      background:rgba(10,16,28,0.95);
+      text-align:center;
+    }
+    .sticky a{
+      display:inline-block;
+      padding:12px 16px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:bold;
+      background:#20c997;
+      color:#06101f;
+    }
+    @media(max-width:650px){
+      .grid{grid-template-columns:1fr;}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <div class="box">
+      <h1>GYM NAME</h1>
+      <p>Location: YOUR CITY / AREA</p>
+      <p>Fitness • Weight Training • Cardio</p>
+
+      <div class="btns">
+        <a class="btn2 btn" href="https://wa.me/91XXXXXXXXXX?text=Hello%20I%20want%20to%20take%20admission.%20Please%20share%20fees%20and%20timing.">
+          WhatsApp
+        </a>
+
+        <a class="btn" href="tel:+91XXXXXXXXXX">Call Now</a>
+
+        <a class="btn" href="https://maps.google.com" target="_blank">Open Location</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <h2 style="margin:0 0 8px; font-size:18px;">Our Services</h2>
+
+      <div class="grid">
+        <div class="item">
+          <strong>Service 1</strong>
+          <span>Write service details</span>
+        </div>
+        <div class="item">
+          <strong>Service 2</strong>
+          <span>Write service details</span>
+        </div>
+        <div class="item">
+          <strong>Service 3</strong>
+          <span>Write service details</span>
+        </div>
+        <div class="item">
+          <strong>Service 4</strong>
+          <span>Write service details</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <h2 style="margin:0 0 8px; font-size:18px;">Membership</h2>
+      <p>Monthly: ₹____</p>
+      <p>Quarterly: ₹____</p>
+      <p>Personal Training: ₹____</p>
+    </div>
+
+    <div class="box">
+      <h2 style="margin:0 0 8px; font-size:18px;">Contact</h2>
+      <p>Phone: +91XXXXXXXXXX</p>
+      <p>Address: Your full address here</p>
+    </div>
+
+    <div class="footer">
+      © 2026 GYM NAME • All rights reserved
+    </div>
+
+  </div>
+
+  <div class="sticky">
+    <a href="https://wa.me/91XXXXXXXXXX?text=Hello%20I%20want%20to%20take%20admission.%20Please%20share%20fees%20and%20timing.">
+      WhatsApp Admission
+    </a>
+  </div>
+
+</body>
+</html>
